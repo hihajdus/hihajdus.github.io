@@ -1,8 +1,55 @@
 @font-face {
-    font-family: 'lato-regular';
-    src: url('../fonts/lato-regular.woff2') format('woff2'),
-         url('../fonts/lato-regular.woff.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
+}
+
+#data {
+    font-family: arial;
+    font-size: 10px;
+}
+
+.button {
+    a {
+        font-family: arial;
+    }
+}
+
+#text-possible {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: verdana;
+}
+
+.text-company {
+    font-family: arial;
+}
+
+#text-team {
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#slide-name {
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#slide-information {
+    font-family: verdana;
+}
+
+#text-map {
+    font-weight: bold;
+    font-family: verdana;
+    color: blue;
+}
+
+#text-map-description {
+    font-family: verdana;
+    color: blue;
+}
+
+.footer {
+    span {
+        font-family: tahoma;
+    }
 }

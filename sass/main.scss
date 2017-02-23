@@ -1,12 +1,8 @@
 @import 'modules/reset';
-@import 'modules/container';
-
-@import 'modules/grid6';
+@import 'modules/grid12';
 @import 'modules/font';
-@import 'effects/animation';
-@import 'effects/slider';
-
-@import 'partials/body';
 @import 'partials/section';
-
-@import 'modules/mediaQuery';
+@import 'media/small';
+@import 'media/medium';
+@import 'media/large';
+@import 'media/xlarge';
