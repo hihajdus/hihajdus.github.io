@@ -7,6 +7,9 @@
   //max-width : 1200px;
 }
 
+.container {
+  display: flex;
+}
 
 .row:before, .row:after {
   content: "";
@@ -16,10 +19,10 @@
 
 [class*='col-'] {
   float: left;
-  //min-height: 1px;
+  min-height: 1px;
   width: 8.33%;
-  //padding: 2px;
-  //background-color: #FFDCDC;
+  //padding: 10px;
+  background-color: #FFDCDC;
   //border: 1px solid lightgreen;
   height: 100%;
 }

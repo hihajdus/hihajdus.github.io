@@ -1,181 +1,116 @@
-$large: "(min-width: 1024px)";
+$large: "(min-width: 768px) and (max-width: 1023px)";
 
 @media #{$large} {
-    body {
-        background: black;
+
+    // -- HEADER
+    .head {
+        padding: 0 60px 10px 60px;
+        height: 60px;
+        #logo {
+            width: 110px;
+            height: 20px;
+        }
+    }
+    .navigation {
+        ul {
+            padding: 15px 0px;
+            a{
+                font-size: 12px;
+            }
+        }
+    }
+    .button {
+        :hover {
+            padding: 10px 20px;
+        }
     }
 
-    // -- HOME
+    // -- COMPANY
+    #company {
+        height: 90vw;
+    }
 
-        #home {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            //background-size: contain;
-            height: 900px;
-            width: 100%;
-
-            #home-logo {
-                width: 18vw;
-                height: 10%;
-            }
-            border-top: 7px solid orange;
+    #company-margin {
+            padding: 0 40px;
+    }
+    section {
+        p {
+            padding: 15px 25px;
         }
-
-    // -- ABOUT
-
-        #about {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-
-            height: 900px;
-            width: 100%;
-            padding: 18vw;
-
-            #about-text {
-                height: 50%;
-                width: 35%;
-                //background-color: red;
-                padding: 2vw;
-            }
-            border-top: 7px solid orange;
+    }
+    #sidebar {
+        #text-map-description {
+            padding: 15px 25px;
         }
+        height: 90vw;
+    }
+    #sidebar-container {
+        margin-top: 100px;
+    }
 
-    // -- PRODUCTS
+    #image-map {
+        margin: 0px 25px;
+        height: 15vw;
+    }
+    #text-possible {
+        padding-top: 50px;
+        font-size: 24px;
+    }
+    .text-company {
+        font-size: 14px;
+    }
+    #text-team {
+        font-size: 12px;
+    }
+    #text-map {
+        font-size: 12px;
+        width: 60%;
+        margin-left: 25px;
+        text-align: left;
+    }
+    #text-map-description {
+        font-size: 12px;
+    }
+    #data {
+        font-size: 12px;
+    }
 
-        #products-1 {
-            display: flex;
-            //justify-content: center;;
-            //align-items: center;
+    /* slider */
 
-            padding: 2vw;
-            background: white;
-
-            height: 900px;
-            width: 100%;
-
-            #products-common-rail {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                height: 100%;
-                width: 50%;
-
-                #common-rail {
-                    //background-color: red;
-                    width: 100%;
-                    //height: 50%;
-                    padding-left: 18vw;
-                    padding-right: 2vw;
-
-
-                    #common-rail-head {
-                    }
-
-                    #common-rail-paragraph {
-
-                    }
-                    #common-rail-dedicated {
-
-                    }
-                    #common-rail-vw {
-
-                    }
-                    #common-rail-renault {
-
-                    }
-                }
-
-            }
-
-            #products-injector {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                height: 100%;
-                width: 50%;
-
-                border-right: 7px solid orange;
+    #slider {
+        width: 50vw;
+        height: 28vw;
+        padding-top: 29vw;
+    }
+    #slide-container {
+        padding-bottom: 60px;
+    }
+    .image-small {
+        width: 9vw;
+        height: 5vw;
+    }
+    .image-big {
+        width: 50vw;
+        height: 28vw;
+    }
 
 
-                #injector {
-                    //background-color: red;
-                    width: 100%;
-                    //height: 50%;
-                    padding-right: 18vw;
-                    padding-left: 2vw;
-
-                    #injector-head {
-
-                    }
-                    #injector-paragraph {
-
-                    }
-                    #injector-dedicated {
-
-                    }
-                }
-
-            }
-        }
-
-    // -- CONTACT
-
-    #contact {
-        height: 900px;
-        width: 100%;
-
-        border-top: 7px solid orange;
-
-        #contact-1 {
-            width: 100%;
-            height: 88%;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-
-            padding: 0 18vw;
-            #contact-text{
-                padding: 2vw;
-            }
-        }
-        #contact-2 {
-
-        }
-        #footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            height: 12%;
-            width: 100%;
-
-            padding: 0 20vw;
-
-            #contact-line {
-                border-top: 1px solid gray;
-                width: 100%;
-                display: flex;
-                justify-content: space-between;
-                //padding: 2vw;
-
-            }
-
-            #contact-logo {
+    // -- FOOTER
+    .footer {
+        padding: 10px 35px;
+        font-size: 11px;
+        ul {
+            li {
+                text-align: center;
                 width: 20%;
-                height: 3vw;
-                margin: 2vw 0;
-            }
-            #studio-18 {
-                width: 5%;
-                height: 2vw;
-                margin: 2vw 0;
+                i{
+                    visibility: hidden;
+                }
+                span {
+                    visibility: visible;
+                }
             }
         }
     }
-
 
 }

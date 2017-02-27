@@ -1,8 +1,117 @@
 $xlarge: "(min-width: 1024px)";
 
 @media #{$xlarge} {
-    body {
-        background: blue;
+
+    // -- HEADER
+    .head {
+        padding: 0 80px 10px 80px;
+        height: 65px;
+        #logo {
+            width: 125px;
+            height: 25px;
+        }
     }
+    .navigation {
+        ul {
+            padding: 15px 0px;
+            a {
+                font-size: 12px;
+            }
+        }
+    }
+    .button {
+        :hover {
+            padding: 10px 20px;
+        }
+    }
+
+    // - COMPANY
+    #company {
+        height: 90vw;
+    }
+    #company-margin {
+            padding: 0px 80px;
+    }
+    section {
+        p {
+            padding: 10px 25px;
+        }
+    }
+    #sidebar {
+        #text-map-description {
+            padding: 15px 25px;
+        }
+        height: 90vw;
+    }
+    #sidebar-container {
+        margin-top: 100px;
+    }
+
+    #image-map {
+        margin: 0px 25px;
+        height: 15vw;
+    }
+
+    #text-possible {
+        padding-top: 50px;
+        font-size: 26px;
+    }
+    .text-company {
+        font-size: 16px;
+    }
+    #text-team {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    #text-map {
+        font-size: 14px;
+        width: 60%;
+        margin-left: 25px;
+        text-align: left;
+    }
+    #text-map-description {
+        font-size: 12px;
+    }
+    #data {
+        font-size: 12px;
+    }
+
+    /* slider */
+
+    #slider {
+        width: 54vw;
+        height: 30vw;
+        padding-top: 32vw;
+    }
+    #slide-container {
+        padding-bottom: 60px;
+    }
+    .image-small {
+        width: 10vw;
+        height: 6vw;
+    }
+    .image-big {
+        width: 54vw;
+        height: 30vw;
+    }
+
+    // -- FOOTER
+    .footer {
+        padding: 10px 60px;
+        font-size: 12px;
+        ul {
+            li {
+                width: 20%;
+                text-align: center;
+                i{
+                    visibility: hidden;
+                }
+                span {
+                    visibility: visible;
+                }
+            }
+        }
+    }
+
 
 }

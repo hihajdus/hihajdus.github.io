@@ -1,45 +1,55 @@
 @font-face {
 
 }
-// -- HOME
 
-
-// -- ABOUT
-
-#about {
-    #about-text {
-        color: white;
-
-        #about-head {
-            //font-size: 2em;
-        }
-        #about-paragaph {
-            //font-size: 2em; // small
-        }
-    }
-
+#data {
+    font-family: arial;
+    font-size: 10px;
 }
 
-// -- PRODUCTS
-#products-1 {
-    #common-rail {
-        #common-rail-head {
-            //font-size: 2em;
-        }
-        #common-rail-paragraph {
-            //font-size: 2em;
-        }
-        #common-rail-dedicated {
-            //font-size: 2em;
-        }
+.button {
+    a {
+        font-family: arial;
     }
 }
 
+#text-possible {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: verdana;
+}
 
-// -- CONTACT
+.text-company {
+    font-family: arial;
+}
 
-#contact {
-    #contact-text {
-        color: white;
+#text-team {
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#slide-name {
+    font-weight: bold;
+    font-family: verdana;
+}
+
+#slide-information {
+    font-family: verdana;
+}
+
+#text-map {
+    font-weight: bold;
+    font-family: verdana;
+    color: blue;
+}
+
+#text-map-description {
+    font-family: verdana;
+    color: blue;
+}
+
+.footer {
+    span {
+        font-family: tahoma;
     }
 }
