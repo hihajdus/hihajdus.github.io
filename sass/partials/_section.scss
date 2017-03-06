@@ -1,210 +1,110 @@
-// -- HEADER --
-.head {
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    color: white;
-    align-items: flex-end;
-    padding: 0 20px 10px 20px;
-    background-image: url('../image/head-black.png');
+// -- HOME
+
+#home-background {
+    background-image: url('../images/tlo-head.png');
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 8px 6px -6px black;
+    content: " ";
+}
+
+#home-logo {
+    background-image: url('../images/logo-railcom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
 
 
-    #logo {
-        background-image: url('../image/logo.png');
-        background-size: contain;
+// -- ABOUT
+
+#about {
+    background-image: url('../images/tlo-about.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: " ";
+
+}
+
+// -- PRODUCTS
+
+#products-1 {
+
+    #products-common-rail {
+
+        background-image: url('../images/common-rail.png');
+        background-size: cover;
         background-repeat: no-repeat;
-        width: 70px;
-        height: 15px;
+
     }
-}
-.navigation {
-    background-image: url('../image/background-gray.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: inset 0px 24px 32px -4px rgba(0,0,0,0.5);
-    ul {
-        display: flex;
-        justify-content: space-around;
-        color: white;
-        padding: 10px 20px;
-        a {
-            font-size: 6px;
-        }
-    }
-}
-.button {
-    text-decoration: none;
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    a {
-        text-decoration: none;
-        border: none;
-        color: white;
-    }
-    :hover {
-        background: black;
-        color: blue;
-        padding: 5px 8px;
+
+
+
+    #products-injector {
+        background-image: url('../images/injector-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
-// - COMPANY
-#company {
+#products-2 {
+    visibility: hidden;
+}
+
+// -- CONTACT
+
+#contact {
+    background-image: url('../images/tlo-contact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    #contact-1 {
+
+    }
+    #contact-2 {
+        visibility: hidden;
+    }
+    #footer {
+        #contact-logo {
+            background-image: url('../images/logo-contact.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            content: " ";
+        }
+        #studio-18 {
+            background-image: url('../images/logo-studio18.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            content: " ";
+        }
+    }
+
+}
+
+/* -- NAV -- */
+
+
+
+.line {
+    width: 20%;
+    height: 2px;
+    content: " ";
     background-color: white;
-}
-#company-margin {
-    //margin: 0 10px;
-    background-image: url('../image/background-gray.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-section {
-    p {
-        padding: 10px;
-    }
-}
-#text-possible {
-    padding-top: 40px;
-    font-size: 18px;
-}
-.text-company {
-    font-size: 14px;
+    //display: inline-block;
 }
 
-#sidebar {
-    p {
-        padding: 10px;
-    }
-    background-color: #F3E9F1;
-}
-
-#sidebar-container {
-    margin: 20px 0px;
-}
-
-
-#image-map {
-    background-image: url('../image/mapa.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 70vw;
-    height: 40vw;
-    margin: 0px 10px;
-    text-indent:-9999px;
-}
-#image-map-container {
+a {
     display: flex;
-    justify-content: center;
-}
-
-
-.slide-image-1 {
-    background-image: url('../image/gallery/Amanreet Bajwa.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-2 {
-    background-image: url('../image/gallery/Daniel-Chu-POSSIBLE-Chief-Creative-Officer.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-3 {
-    background-image: url('../image/gallery/Danielle_-Reubenstein.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-4 {
-    background-image: url('../image/gallery/Diane-holland-possible-cfo.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-5 {
-    background-image: url('../image/gallery/john_cunningham.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-6 {
-    background-image: url('../image/gallery/Kelsey.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-7 {
-    background-image: url('../image/gallery/PeiPei.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-8 {
-    background-image: url('../image/gallery/SEA_Danielle_Trivisonno.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-9 {
-    background-image: url('../image/gallery/SEABrandonGeary.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-.slide-image-10 {
-    background-image: url('../image/gallery/shane-atchison-possible-ceo-1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: "";
-}
-
-#text-team {
-    font-size: 10px;
-}
-
-#text-map {
-    font-size: 10px;
-    border-top: 2px solid blue;
-    width: 40%;
-    margin-left: 10px;
-}
-#text-border {
-    content: "";
-    display: inline;
-}
-#text-map-description {
-    font-size: 10px;
-}
-
-
-
-// -- FOOTER --
-.footer {
-    height: 30px;
-    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
     color: white;
-    padding: 10px 20px;
-    font-size: 8px;
-    ul {
-        display: flex;
-        justify-content: space-around;
-        align-self: center;
-        li {
-            width: 10%;
-            i {
-                :hover {
-                    color: blue;
-                }
-            }
-            span {
-                visibility: hidden;
-            }
-        }
-    }
+}
+
+/* -- LANG -- */
+
+.lang {
+    display: flex;
+    justify-content: flex-start;;
+    align-items: flex-start;
 
 }

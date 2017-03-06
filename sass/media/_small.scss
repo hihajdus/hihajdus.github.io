@@ -1,13 +1,174 @@
-$small: "(max-width: 479px)";
+$small: "(max-width: 610px)";
 
 @media #{$small} {
-
-// - COMPANY
-
-    #company {
-        width: 100%;
+    body {
+        background: black;
     }
-    #sidebar {
+
+// -- HOME
+
+#home-background {
+    height: 600px;
+    width: 100%;
+    border-top: 2vw solid orange;
+}
+
+
+    #home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 50%;
         width: 100%;
+
+        #home-logo {
+            width: 80%;
+            height: 50%;
+        }
     }
+    .nav-panel {
+        visibility: hidden;
+    }
+// -- ABOUT
+
+    #about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vw;
+        width: 100%;
+
+        #about-text {
+            height: 80vw;
+            width: 80%;
+            //background-color: red;
+        }
+        border-top: 2vw solid orange;
+    }
+
+// -- PRODUCTS
+
+    #products-1 {
+        display: block;
+        //justify-content: center;;
+        //align-items: center;
+        padding: 2vw;
+        background: white;
+
+        height: 200vw;
+        width: 100%;
+
+        #products-common-rail {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 50%;
+            width: 100%;
+
+            #common-rail {
+                //background-color: red;
+                width: 85%;
+                height: 80vw;
+
+                #common-rail-head {
+                }
+
+                #common-rail-paragraph {
+
+
+                }
+                #common-rail-dedicated {
+
+                }
+                #common-rail-vw {
+
+                }
+                #common-rail-renault {
+
+                }
+            }
+
+        }
+
+        #products-injector {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 50%;
+            width: 100%;
+
+            #injector {
+                //background-color: red;
+                width: 85%;
+                height: 80vw;
+
+                #injector-head {
+
+                }
+                #injector-paragraph {
+
+                }
+                #injector-dedicated {
+
+                }
+            }
+
+        }
+    }
+
+// -- CONTACT
+
+#contact {
+    height: 100vw;
+    width: 100%;
+
+    border-top: 2vw solid orange;
+
+    #contact-1 {
+        width: 100%;
+        height: 78vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        padding: 10vw;
+
+    }
+    #contact-2 {
+
+    }
+    #footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 20vw;
+        width: 100%;
+
+        padding: 10vw;
+
+        #contact-line {
+            border-top: 1vw solid gray;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #contact-logo {
+            width: 40%;
+            height: 18vw;
+            margin: 2vw;
+        }
+        #studio-18 {
+            width: 20%;
+            height: 18vw;
+            margin: 4vw;
+        }
+    }
+}
+
 }
