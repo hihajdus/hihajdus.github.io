@@ -28,8 +28,40 @@ $medium: "(min-width: 611px) and (max-width: 1023px)";
             }
         }
         .nav-panel {
-            visibility: hidden;
+            //visibility: hidden;
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .nav-list {
+                visibility: hidden;
+            }
+            .hamburger-menu {
+
+                button {
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    background-color: transparent;
+
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .line {
+                    width: 100%;
+                    height: 2px;
+                    content: " ";
+                    background-color: white;
+                }
+            }
+
         }
+
+
+
 
     // -- ABOUT
 

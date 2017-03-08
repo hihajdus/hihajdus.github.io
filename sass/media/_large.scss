@@ -10,10 +10,8 @@ $large: "(min-width: 1024px)";
     #home-background {
         height: 900px;
         width: 100%;
-
         border-top: 7px solid orange;
     }
-
         #home {
             display: flex;
             justify-content: center;
@@ -40,24 +38,12 @@ $large: "(min-width: 1024px)";
             align-items: center;
             padding-left: 20vw;
             padding-right: 20vw;
-
+            .lang {
+                align-items: flex-start;
+            }
         }
 
-    .lang {
-        height: 100px;
-        width: 150px;
-        //background-color: yellow;
-        button {
-            width: 32px;
-            height: 32px;
-            border: 1px solid white;
-            margin: 2px;
-            text-align: center;
-            text-decoration: none;
-            background-color: transparent;
-            color: white;
-        }
-    }
+
 
     .nav-list {
         height: 100px;
@@ -80,6 +66,10 @@ $large: "(min-width: 1024px)";
         }
     }
 
+    .hamburger-menu {
+        display: none;
+    }
+
     // -- ABOUT
 
         #about {
@@ -93,7 +83,7 @@ $large: "(min-width: 1024px)";
 
             #about-text {
                 height: 50%;
-                width: 35%;
+                width: 45%;
                 //background-color: red;
                 padding: 2vw;
             }
@@ -188,7 +178,7 @@ $large: "(min-width: 1024px)";
         border-top: 7px solid orange;
 
         #contact-1 {
-            width: 100%;
+            width: 70%;
             height: 88%;
             display: flex;
             justify-content: flex-start;

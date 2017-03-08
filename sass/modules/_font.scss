@@ -1,20 +1,68 @@
 @font-face {
-
+    font-family: 'oswald-regular';
+    src: url('../fonts/oswald-regular.woff2') format('woff2'),
+         url('../fonts/oswald-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-// -- HOME
+@font-face {
+    font-family: 'oswald-bold';
+    src: url('../fonts/oswald-bold.woff2') format('woff2'),
+         url('../fonts/oswald-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima-nova-regular';
+    src: url('../fonts/proxima-nova-regular.woff2') format('woff2'),
+         url('../fonts/proxima-nova-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proxima-nova-alt-light';
+    src: url('../fonts/proxima-nova-alt-light.woff2') format('woff2'),
+         url('../fonts/proxima-nova-alt-light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
 
+// -- HOME
+.lang {
+    button {
+        font-size: 12px;
+        font-family: 'oswald-regular';
+    }
+}
+.nav-list {
+    a {
+        font-size: 12px;
+        font-family: 'oswald-regular';
+    }
+}
 
 // -- ABOUT
 
 #about {
     #about-text {
         color: white;
-
         #about-head {
-            //font-size: 2em;
+            font-size: 30px;
+            padding-bottom: 10px;
+            font-family: 'oswald-bold';
         }
-        #about-paragaph {
-            //font-size: 2em; // small
+
+        #about-paragraph {
+            font-size: 14px;
+            font-family: 'proxima-nova-alt-light';
+            span {
+                color: orange;
+            }
+        }
+        #about-paragraph-ofert {
+            font-size: 14px;
+            font-family: 'proxima-nova-alt-light';
+            padding-top: 10px;
         }
     }
 
@@ -23,14 +71,37 @@
 // -- PRODUCTS
 #products-1 {
     #common-rail {
+        color: black;
         #common-rail-head {
-            //font-size: 2em;
+            font-size: 30px;
+            padding-bottom: 10px;
+            font-family: 'oswald-bold';
         }
         #common-rail-paragraph {
-            //font-size: 2em;
+            font-size: 14px;
+            font-family: 'proxima-nova-alt-light';
         }
         #common-rail-dedicated {
-            //font-size: 2em;
+            font-size: 14px;
+            font-family: 'oswald-bold';
+            padding-top: 10px;
+        }
+    }
+    #injector {
+        color: white;
+        #injector-head {
+            font-size: 30px;
+            padding-bottom: 10px;
+            font-family: 'oswald-bold';
+        }
+        #injector-paragraph {
+            font-size: 14px;
+            font-family: 'proxima-nova-alt-light';
+        }
+        #injector-dedicated {
+            font-size: 14px;
+            font-family: 'oswald-bold';
+            padding-top: 10px;
         }
     }
 }
@@ -41,5 +112,27 @@
 #contact {
     #contact-text {
         color: white;
+        #contact-head {
+            font-size: 30px;
+            padding-bottom: 10px;
+            font-family: 'oswald-bold';
+        }
+        #contact-paragraph {
+            font-size: 14px;
+            font-family: 'proxima-nova-alt-light';
+            padding-top: 10px;
+        }
+        #contact-detail {
+            font-size: 14px;
+            font-family: 'proxima-nova-alt-light';
+            padding-top: 10px;
+            padding-bottom: 10px;
+            span {
+                font-family: 'oswald-bold';
+                font-size: 30px;
+                color: orange;
+            }
+        }
+
     }
 }
