@@ -27,112 +27,48 @@
     font-style: normal;
 }
 
-// -- HOME
+body {
+    color: white;
+    line-height: 105%;
+    h1 {
+        font-family: 'oswald-bold';
+        font-size: 32px;
+        padding-bottom: 15px;
+    }
+
+    h4 {
+        font-family: 'oswald-bold';
+        font-size: 12px;
+        padding-top: 15px;
+    }
+
+    p {
+        font-family: 'proxima-nova-regular';
+        font-size: 12px;
+    }
+    span {
+        color: orange;
+    }
+}
+
+.nav-panel {
+    font-family: 'oswald-regular';
+    font-size: 14px;
+}
+
 .lang {
-    button {
-        font-size: 12px;
+    p {
         font-family: 'oswald-regular';
-    }
-}
-.nav-list {
-    a {
         font-size: 12px;
-        font-family: 'oswald-regular';
     }
 }
 
-// -- ABOUT
-
-#about {
-    #about-text {
-        color: white;
-        #about-head {
-            font-size: 30px;
-            padding-bottom: 10px;
-            font-family: 'oswald-bold';
-        }
-
-        #about-paragraph {
-            font-size: 14px;
-            font-family: 'proxima-nova-alt-light';
-            span {
-                color: orange;
-            }
-        }
-        #about-paragraph-ofert {
-            font-size: 14px;
-            font-family: 'proxima-nova-alt-light';
-            padding-top: 10px;
-        }
-    }
-
+#common-rail {
+    color: black;
 }
 
-// -- PRODUCTS
-#products-1 {
-    #common-rail {
+.products-other-text {
+    p {
         color: black;
-        #common-rail-head {
-            font-size: 30px;
-            padding-bottom: 10px;
-            font-family: 'oswald-bold';
-        }
-        #common-rail-paragraph {
-            font-size: 14px;
-            font-family: 'proxima-nova-alt-light';
-        }
-        #common-rail-dedicated {
-            font-size: 14px;
-            font-family: 'oswald-bold';
-            padding-top: 10px;
-        }
-    }
-    #injector {
-        color: white;
-        #injector-head {
-            font-size: 30px;
-            padding-bottom: 10px;
-            font-family: 'oswald-bold';
-        }
-        #injector-paragraph {
-            font-size: 14px;
-            font-family: 'proxima-nova-alt-light';
-        }
-        #injector-dedicated {
-            font-size: 14px;
-            font-family: 'oswald-bold';
-            padding-top: 10px;
-        }
-    }
-}
-
-
-// -- CONTACT
-
-#contact {
-    #contact-text {
-        color: white;
-        #contact-head {
-            font-size: 30px;
-            padding-bottom: 10px;
-            font-family: 'oswald-bold';
-        }
-        #contact-paragraph {
-            font-size: 14px;
-            font-family: 'proxima-nova-alt-light';
-            padding-top: 10px;
-        }
-        #contact-detail {
-            font-size: 14px;
-            font-family: 'proxima-nova-alt-light';
-            padding-top: 10px;
-            padding-bottom: 10px;
-            span {
-                font-family: 'oswald-bold';
-                font-size: 30px;
-                color: orange;
-            }
-        }
-
     }
 }

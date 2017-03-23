@@ -1,0 +1,87 @@
+/* ---- NAV-PANEL ---- */
+
+.nav-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px;
+    @media #{$medium, $small} {align-items: flex-start;}
+    @media #{$medium} {padding: 30px 100px;}
+    @media #{$small} {padding: 30px;}
+
+/* ---- LANG ---- */
+
+    .lang {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 50%;
+        width: 10%;
+        //background-color: black;
+
+        button {
+            width: 24px;
+            height: 22px;
+            border: 1px solid white;
+            margin: 2px;
+            text-align: left;
+            text-decoration: none;
+            background: transparent;
+            color: white;
+        }
+
+    }
+
+    /* ---- NAV ---- */
+
+
+    .nav-list {
+        height: 50%;
+        width: 24%;
+        //background-color: gray;
+
+        a {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+
+            .line {
+                width: 20%;
+                height: 2px;
+                content: " ";
+                background-color: white;
+            }
+            &:hover {
+                .line {
+                    width: 50%;
+                    background-color: orange;
+                }
+                color: orange;
+            }
+        }
+    }
+
+
+    .hamburger-menu {
+        width: 30px;
+        height: 30px;
+
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        cursor: pointer;
+
+            .line {
+                width: 100%;
+                height: 2px;
+                content: " ";
+                background-color: white;
+            }
+        }
+
+}
