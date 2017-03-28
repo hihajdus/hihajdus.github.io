@@ -203,13 +203,15 @@ $large: "(min-width: 1024px)";
 
 }
 
-#products-2 {
-    height: 100vh;
 
+#products-2 {
+
+    height: 100vh;
     display: flex;
 
     padding: 35px 0 35px 35px;
 
+    //display: none;
 
     #products-second-page {
         width: 98%;
@@ -404,6 +406,15 @@ $large: "(min-width: 1024px)";
             #studio-18 {
                 height: 80%;
                 width: 10%;
+                content: ' ';
+                cursor: pointer;
+                position: relative;
+                a{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    
+                }
             }
         }
     }
