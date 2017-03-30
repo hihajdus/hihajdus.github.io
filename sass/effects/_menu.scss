@@ -23,24 +23,26 @@
             width: 24px;
             height: 22px;
             border: 1px solid white;
-            margin: 2px;
+            margin-left: 6px;
             text-align: left;
             text-decoration: none;
             background: transparent;
             color: white;
 
             cursor: pointer;
-
+            p {
+                margin-top: 2px;
+            }
         }
 
     }
 
-    /* ---- NAV ---- */
+/* ---- NAV ---- */
 
 
     .nav-list {
         height: 50%;
-        width: 24%;
+        width: 26%;
         //background-color: gray;
         a {
             display: flex;
@@ -49,10 +51,12 @@
             text-decoration: none;
             cursor: pointer;
             color: white;
+            padding-bottom: 2px;
 
             .line {
                 width: 20%;
                 height: 2px;
+                margin-left: 4px;
                 content: " ";
                 background-color: white;
             }
@@ -89,5 +93,3 @@
         }
 
 }
-
-    /* ---- NAV ---- */

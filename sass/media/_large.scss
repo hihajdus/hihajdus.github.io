@@ -50,10 +50,10 @@ $large: "(min-width: 1024px)";
         align-items: flex-end;
 
         .arrow {
-            width: 2%;
+            width: 3%;
             height: 20%;
-            //background-color: green;
             content: " ";
+            margin: 40px 20px;
         }
     }
 }
@@ -94,17 +94,16 @@ $large: "(min-width: 1024px)";
     .arrow-container {
         width: 100%;
         height: 25%;
-        //background-color: lightblue;
 
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
 
         .arrow {
-            width: 2%;
+            width: 3%;
             height: 20%;
-            //background-color: green;
             content: " ";
+            margin: 40px 20px;
         }
     }
 
@@ -177,8 +176,26 @@ $large: "(min-width: 1024px)";
             justify-content: center;
             align-items: center;
 
+            position: relative;
+
             p {
             transform: rotate(-90deg);
+            position: absolute;
+                &:nth-child(1) {
+                    top: 147px;
+                }
+                &:nth-child(2) {
+                    top: 114px;
+                }
+                &:nth-child(3) {
+                    top: 84px;
+                }
+                &:nth-child(4) {
+                    top: 39px;
+                }
+                &:nth-child(5) {
+                    top: 2px;
+                }
             }
         }
 
@@ -230,7 +247,7 @@ $large: "(min-width: 1024px)";
             align-items: center;
             #products-denso {
                 width: 90%;
-                height: 10%;
+                height: 8%;
             }
         }
 
@@ -243,7 +260,7 @@ $large: "(min-width: 1024px)";
             align-items: center;
             #products-bosch {
                 width: 90%;
-                height: 10%;
+                height: 9%;
             }
         }
 
@@ -256,7 +273,7 @@ $large: "(min-width: 1024px)";
             align-items: center;
             #products-continental {
                 width: 90%;
-                height: 10%;
+                height: 8%;
             }
         }
 
@@ -269,7 +286,7 @@ $large: "(min-width: 1024px)";
             align-items: center;
             #products-delphi {
                 width: 90%;
-                height: 10%;
+                height: 13%;
             }
         }
 
@@ -282,7 +299,7 @@ $large: "(min-width: 1024px)";
             align-items: center;
             #products-siemens {
                 width: 90%;
-                height: 10%;
+                height: 9%;
             }
         }
     }
@@ -308,8 +325,22 @@ $large: "(min-width: 1024px)";
             justify-content: center;
             align-items: center;
 
+            position: relative;
+
             p {
             transform: rotate(-90deg);
+            text-align: justify;
+            position: absolute;
+
+                &:nth-child(1) {
+                    top: 84px;
+                }
+                &:nth-child(2) {
+                    top: 49px;
+                }
+                &:nth-child(3) {
+                    top: 11px;
+                }
             }
         }
 
@@ -400,12 +431,12 @@ $large: "(min-width: 1024px)";
 
             #contact-logo {
                 height: 100%;
-                width: 20%;
+                width: 14%;
             }
 
             #studio-18 {
-                height: 80%;
-                width: 10%;
+                height: 88%;
+                width: 7%;
                 content: ' ';
                 cursor: pointer;
                 position: relative;
@@ -413,7 +444,7 @@ $large: "(min-width: 1024px)";
                     position: absolute;
                     width: 100%;
                     height: 100%;
-                    
+
                 }
             }
         }

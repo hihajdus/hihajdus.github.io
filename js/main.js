@@ -34,7 +34,7 @@ $('#arrow-1').click(function(){
 
 if (window.matchMedia("(min-width: 768px)").matches) {
 
-    $('#products-1').slideToggle(600);
+    $('#products-1').toggle();
     $('#products-2').show();
 
 };
@@ -45,7 +45,7 @@ $('#arrow-2').click(function(){
 
 if (window.matchMedia("(min-width: 768px)").matches) {
 
-    $('#products-2').slideToggle(600);
+    $('#products-2').toggle();
     $('#products-1').show();
 
 };

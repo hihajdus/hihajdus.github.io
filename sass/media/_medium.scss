@@ -153,6 +153,7 @@ $medium: "(min-width: 768px) and (max-width: 1023px)";
     }
 
     .products-other-container {
+
         height: 100%;
         width: 2%;
 
@@ -160,22 +161,11 @@ $medium: "(min-width: 768px) and (max-width: 1023px)";
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
 
         .products-other-text {
-            //background-color: orange;
-
-            width: 100%;
-            height: 20%;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            p {
-            transform: rotate(-90deg);
-            }
+            display: none;
         }
 
         .arrow-black-container {
@@ -289,22 +279,11 @@ $medium: "(min-width: 768px) and (max-width: 1023px)";
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-end;
         align-items: center;
 
         .products-other-text {
-            //background-color: orange;
-
-            width: 100%;
-            height: 20%;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            p {
-            transform: rotate(-90deg);
-            }
+            display: none;
         }
 
         .arrow-black-container {
@@ -322,6 +301,7 @@ $medium: "(min-width: 768px) and (max-width: 1023px)";
                 width: 100%;
                 height: 20%;
                 content: " ";
+                margin-bottom: 16px;
             }
         }
     }
