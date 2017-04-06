@@ -1425,4 +1425,13 @@ body {
       content: " ";
       background-color: white; }
 
+/* ---- SLIDER ---- */
+.alive {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.dead {
+  display: none !important; }
+
 /*# sourceMappingURL=main.css.map */

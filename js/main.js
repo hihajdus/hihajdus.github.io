@@ -28,29 +28,22 @@ if (window.matchMedia("(max-width: 1023px)").matches) {
 
 });
 
-//
-
-$('#arrow-1').click(function(){
 
 if (window.matchMedia("(min-width: 768px)").matches) {
-
-    $('#products-1').toggle();
-    $('#products-2').show();
-
+    $('#products-2').addClass('dead');
+    $('#arrow-1').click(function(){
+        $('#products-1').addClass('dead');
+        $('#products-2').removeClass('dead');
+    });
 };
-
-});
-
-$('#arrow-2').click(function(){
 
 if (window.matchMedia("(min-width: 768px)").matches) {
-
-    $('#products-2').toggle();
-    $('#products-1').show();
-
+    
+    $('#arrow-2').click(function(){
+        $('#products-2').addClass('dead');
+        $('#products-1').removeClass('dead');
+    });
 };
-
-});
 
 
 

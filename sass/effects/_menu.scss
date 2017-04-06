@@ -93,3 +93,15 @@
         }
 
 }
+
+/* ---- SLIDER ---- */
+
+.alive {
+    //visibility: visible;
+    display: flex;
+}
+
+.dead {
+    display: none !important;
+    //visibility: hidden;
+}
